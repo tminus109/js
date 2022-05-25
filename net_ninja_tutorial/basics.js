@@ -111,3 +111,77 @@ var myArray4 = new Array(5);
 
 console.log(myArray2.sort());
 console.log(myArray2.reverse()); */
+
+/* var myCar = new Object();
+myCar.speed = 50;
+myCar.driver = "Shaun";
+
+myCar.drive = function () {
+  console.log("driving");
+};
+
+console.log(myCar.driver);
+myCar.drive();
+
+var myCar2 = {
+  speed: 70,
+  driver: "Bill",
+  drive: function () {
+    console.log("driving again");
+  },
+  thisKeywordTest: function () {
+    console.log(this);
+  },
+  logDriver: function () {
+    console.log("The driver is " + this.driver + ".");
+  },
+};
+
+console.log(myCar2.speed);
+console.log(myCar2.driver);
+myCar2.drive();
+
+console.log(this);
+myCar2.thisKeywordTest();
+myCar2.logDriver(); */
+
+/* var Car = function (maxSpeed, driver) {
+  this.maxSpeed = maxSpeed;
+  this.driver = driver;
+  this.drive = function () {
+    console.log("Now driving.");
+  };
+};
+
+var myCar = new Car(100, "Eve");
+
+myCar.drive();
+console.log(myCar.maxSpeed); */
+
+/* class Fruit {
+  constructor(name) {
+    this.name = name;
+    this.grow = function () {
+      console.log(": )");
+    };
+  }
+}
+
+var fruit1 = new Fruit("apple");
+
+console.log(fruit1.name);
+fruit1.grow(); */
+
+/* class Animal {
+  constructor(name, speak) {
+    this.name = name;
+    this.speak = function () {
+      console.log(speak);
+    };
+  }
+}
+
+var animal = new Animal("dog", "vuff");
+
+console.log(animal.name);
+animal.speak(); */
