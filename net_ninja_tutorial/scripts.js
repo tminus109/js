@@ -37,3 +37,12 @@ for (i = 0; i < links.length; i++) {
 for (i = 0; i < links.length; i++) {
   links[i].className = "link-" + i;
 } */
+
+/* function getAverage(a, b) {
+  var average = (a + b) / 2;
+  return average;
+}
+
+myResult = getAverage(7, 12);
+console.log("myResult = " + myResult); */
+
