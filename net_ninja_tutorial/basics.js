@@ -185,3 +185,27 @@ var animal = new Animal("dog", "vuff");
 
 console.log(animal.name);
 animal.speak(); */
+
+/* var myDate = new Date();
+var myPastdate = new Date(1545, 0, 31, 10, 0, 59);
+var myFutureDate = new Date(2514, 0, 1);
+
+console.log(myDate);
+console.log(myPastdate);
+console.log(myFutureDate); */
+
+/* var birthday = new Date(1985, 0, 15, 11, 15, 25);
+var birthday2 = new Date(1985, 0, 15, 11, 15, 25);
+
+console.log(birthday.getMonth());
+console.log(birthday.getFullYear());
+console.log(birthday.getDate());
+console.log(birthday.getDay());
+console.log(birthday.getHours());
+console.log(birthday.getTime());
+
+if (birthday.getTime() === birthday2.getTime()) {
+  console.log("Birthdays are equal.");
+} else {
+  console.log("Birthdays are not equal.");
+} */
