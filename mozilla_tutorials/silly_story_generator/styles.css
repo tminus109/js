@@ -1,0 +1,48 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+}
+
+body {
+  width: 400px;
+  margin-top: 50px;
+}
+
+div {
+  padding-bottom: 40px;
+}
+
+p {
+  padding: 10px;
+  background: #ffc125;
+  color: #5e2612;
+  visibility: hidden;
+}
+
+input[type="text"] {
+  width: 400px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+input[type="radio"] {
+  width: 24px;
+  height: 24px;
+}
+
+button {
+  all: unset;
+  width: 400px;
+  padding: 10px 0;
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+button:hover {
+  background-color: darkgray;
+}
