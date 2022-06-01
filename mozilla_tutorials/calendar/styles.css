@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-size: 24px;
+}
+
+select {
+  width: 200px;
+  font-size: 24px;
+}
+
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+li {
+  display: block;
+  float: left;
+  width: 25%;
+  border: 2px solid white;
+  padding: 15px;
+  height: 80px;
+  background-color: #4a2db6;
+  color: white;
+}
