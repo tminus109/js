@@ -3,29 +3,21 @@ const list = document.querySelector("ul");
 const h1 = document.querySelector("h1");
 
 select.addEventListener("change", () => {
-  let days = 0;
+  let days;
   const month = select.value;
-  if (
+  if (month === "") {
+    days = 0;
+  } else if (month === "February") {
+    days = 28;
+  } else if (
     month === "April" ||
     month === "June" ||
     month === "September" ||
     month === "November"
   ) {
     days = 30;
-  } else if (
-    month === "January" ||
-    month === "March" ||
-    month === "May" ||
-    month === "July" ||
-    month === "August" ||
-    month === "October" ||
-    month === "December"
-  ) {
-    days = 31;
-  } else if (month === "February") {
-    days = 28;
   } else {
-    days = 0;
+    days = 31;
   }
   createCalendar(days, month);
 });
