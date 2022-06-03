@@ -6,7 +6,6 @@ function displayMessage(msgText, msgType) {
   body.appendChild(panel);
 
   const msg = document.createElement("p");
-  msg.setAttribute("style", "white-space: pre;");
   msg.textContent = msgText;
   panel.appendChild(msg);
 
