@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  display: block;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+}
