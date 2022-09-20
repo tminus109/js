@@ -58,6 +58,7 @@ img {
   float: right;
   margin-left: 20px;
   max-width: 200px;
+  max-height: 120px;
 }
 
 span {
