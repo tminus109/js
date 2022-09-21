@@ -66,3 +66,14 @@ ctx.fillRect(0, 0, width, height);
 // ctx.arc(200, 106, 50, degToRad(-45), degToRad(45), true);
 // ctx.lineTo(200, 106);
 // ctx.fill();
+
+// text
+
+// ctx.strokeStyle = "white";
+// ctx.lineWidth = 1;
+// ctx.font = "36px arial";
+// ctx.strokeText("Canvas Text", 50, 50);
+
+// ctx.fillStyle = "rgb(255, 0, 0)";
+// ctx.font = "48px georgia";
+// ctx.fillText("Canvas Text 2", 50, 150);
