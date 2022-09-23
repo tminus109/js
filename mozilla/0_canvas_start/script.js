@@ -77,3 +77,11 @@ ctx.fillRect(0, 0, width, height);
 // ctx.fillStyle = "rgb(255, 0, 0)";
 // ctx.font = "48px georgia";
 // ctx.fillText("Canvas Text 2", 50, 150);
+
+// images
+
+const image = new Image();
+image.src = "firefox.png";
+image.addEventListener("load", () => {
+  ctx.drawImage(image, 20, 20, 185, 175, 50, 50, 185, 175);
+});
