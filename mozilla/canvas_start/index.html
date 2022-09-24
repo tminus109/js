@@ -9,6 +9,19 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <canvas class="myCanvas"><p>Add suitable fallback here.</p></canvas>
+    <div class="toolbar">
+      <input type="color" aria-label="select pen color" value="#ff0000" />
+      <input
+        type="range"
+        min="2"
+        max="50"
+        value="30"
+        aria-label="select pen size"
+      /><span class="output">30</span>
+      <button>Clear Canvas</button>
+    </div>
+    <canvas class="myCanvas">
+      <p>Add suitable fallback here.</p>
+    </canvas>
   </body>
 </html>
